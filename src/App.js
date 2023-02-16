@@ -24,7 +24,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="container mx-auto bg-gray-200 rounded-xl">
       <h1>todo list</h1>
       <input
         onKeyDown={tryToCheckForEnterKey}
